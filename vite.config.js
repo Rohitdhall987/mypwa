@@ -36,4 +36,5 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'manifest.webmanifest'],
     }),
   ],
+  base:"/reactapp/"
 });
