@@ -11,21 +11,21 @@ export default defineConfig({
         short_name: 'Your App Short Name',
         icons: [
           {
-            src: '/favicon.ico',
-            sizes: '64x64',
-            type: 'image/x-icon',
+            "src": "/public/48-48.png",
+            "sizes": "48x48",
+            "type": "image/png"
           },
           {
-            src: '/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
+            "src": "/public/48-48.png",
+            "sizes": "192x192",
+            "type": "image/png"
           },
           {
-            src: '/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any maskable',
-          },
+            "src": "/public/512-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
         ],
         theme_color: '#ffffff',
         background_color: '#ffffff',
